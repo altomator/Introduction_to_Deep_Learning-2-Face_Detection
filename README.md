@@ -24,7 +24,7 @@ Users may play with the confidence score value and look for the impact on the de
 
 **Display the Jupyter notebook with [nbviewer](https://nbviewer.jupyter.org/github/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/binder/faces-detection-with-dnn.ipynb)**
 
-**Launch the notebook with Binder:
+**Launch the notebook with Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/altomator/Introduction_to_Deep_Learning-2-Face_Detection/22f68d56858399e6f1b6cb90855f3c1527afb09a)**
 
 ### Evaluating performances
