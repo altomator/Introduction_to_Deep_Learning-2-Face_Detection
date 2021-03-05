@@ -22,14 +22,16 @@ The images of a Gallica document are first loaded thanks to the IIIF protocol. T
 
 Users may play with the confidence score value and look for the impact on the detection process. A basic filter on very large (and improbable) detections is implemented.
 
-A final stage of  evaluation of the quality of the detection is carried out, using the [intersection over union](https://en.wikipedia.org/wiki/Jaccard_index) (IOU) method. A basic Python implementation is performed, processing only images that include a single face. For an effective method, see this [implementation](https://pythonawesome.com/most-popular-metrics-used-to-evaluate-object-detection-algorithms/). Ground truth images are annotated thanks to the [VGG Image Annotator](http://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html).
-
-![IOU result on a test image](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/iou.jpg)
-
 Display the Jupyter notebook with [nbviewer](https://nbviewer.jupyter.org/github/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/binder/faces-detection-with-dnn.ipynb).
 
 Launch the notebook with Binder:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/altomator/Introduction_to_Deep_Learning-2-Face_Detection/22f68d56858399e6f1b6cb90855f3c1527afb09a)
+
+### Evaluating performances
+
+A final stage of  evaluation of the quality of the detection is carried out, using the [intersection over union](https://en.wikipedia.org/wiki/Jaccard_index) (IOU) method. A basic Python implementation is performed, processing only images that include a single face. For an effective method, see this [implementation](https://pythonawesome.com/most-popular-metrics-used-to-evaluate-object-detection-algorithms/). Ground truth images are annotated thanks to the [VGG Image Annotator](http://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html).
+
+![IOU result on a test image](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/iou.jpg)
 
 
 ### Google Cloud Vision 
