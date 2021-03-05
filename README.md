@@ -93,7 +93,7 @@ These deep learning systems are well known for facial detection or recognition:
 ![Averaging of faces](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/averaging.jpg)
 
 - **Digital mediation:**
-  -  Averaging of faces, [WW2 faces](https://dm0lds.wordpress.com/2018/11/10/le-visage-anonyme)
+  -  Averaging of faces, [WW1 faces](https://dm0lds.wordpress.com/2018/11/10/le-visage-anonyme)
 
 ## Resources
 - Face detection with [Google Cloud Vision](https://cloud.google.com/vision/docs/detecting-faces)
