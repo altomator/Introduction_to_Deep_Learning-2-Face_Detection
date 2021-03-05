@@ -1,4 +1,5 @@
-### **This Python 3 notebook extracts images of a Gallica document (using the IIIF protocol), and then applies face detection to the images**
+### **This Python 3 notebook extracts images of a Gallica document (using the IIIF protocol),
+#     and then applies face detection to the images**
 # 1. Extract the document technical image metadata from its IIIF manifest,
 # 2. Load the IIIF images
 # 3. Apply a SSD Resnet model with openCV/dnn module
