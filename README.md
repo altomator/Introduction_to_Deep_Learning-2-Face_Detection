@@ -4,7 +4,7 @@
 Use case: face detection on heritage images 
 
 ## Goals 
-Annotation of visages on heritage material for information retrieval, quantitative analysis, etc.
+Annotation of visages on heritage material can be useful for information retrieval scenario, digital humanities research objectives, etc.
 
 ![Face detection on engraving material](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/visage.png)
 
