@@ -10,6 +10,7 @@ Annotation of visages on heritage material can be useful for information retriev
 
 <sup>[ark:/12148/btv1b10544068q](https://gallica.bnf.fr/ark:/12148/btv1b10544068q/f1)</sup>
 
+Facial recognition, a technology capable of matching a human face from a digital image, is not covered here.
 
 ## Hands-on session 
 
@@ -66,7 +67,7 @@ curl --max-time 10 -v -s -H "Content-Type: application/json" https://vision.goog
 Note: [IBM Watson](https://www.ibm.com/blogs/policy/facial-recognition-sunset-racial-justice-reforms/) no longer offers facial detection.
 
 ### Others approaches
-These deep learning systems are well known for facial recognition:
+These deep learning systems are well known for facial detection or recognition:
 - Facebook [DeepFace](https://en.wikipedia.org/wiki/DeepFace)
 - DeepID 
 - [VGGFace](https://github.com/rcmalli/keras-vggface)
