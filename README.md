@@ -14,6 +14,9 @@ Facial recognition, a technology capable of matching a human face from a digital
 
 ## Hands-on session 
 
+Out of the box and easy to use systems are available for face detection. 
+
+
 ### OpenCV/dnn
 The [OpenCV/dnn](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/) module can be used to try some pretrained neural network models imported from frameworks as Caffe or Tensorflow.
 
