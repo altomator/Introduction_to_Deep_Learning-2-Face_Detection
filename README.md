@@ -96,8 +96,10 @@ These deep learning systems are well known for facial detection or recognition:
   [The real face of White Australia](https://www.realfaceofwhiteaustralia.net/faces/?rsort=1)
   
   
+  
 - **Digital mediation:**
   -  Averaging of faces, [WW1 faces](https://dm0lds.wordpress.com/2018/11/10/le-visage-anonyme)
+  -  Face replacement using vintage photos: [The Vintage Face Depot](https://wragge.github.io/face-depot)
 
 ## Resources
 - Face detection with [Google Cloud Vision](https://cloud.google.com/vision/docs/detecting-faces)
