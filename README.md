@@ -95,7 +95,7 @@ These deep learning systems are well known for facial detection or recognition:
   - Exploring the records of the White Australia Policy: [The People Inside](https://www.dropbox.com/s/8d60o9fxljeetpa/1.%20SherrattBagnall_PeopleInside.pdf?dl=0), 
   [The real face of White Australia](https://www.realfaceofwhiteaustralia.net/faces/?rsort=1)
   
-  
+  [![The real face of White Australia](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/australia.jpg)](https://www.realfaceofwhiteaustralia.net/faces/?rsort=1)
   
 - **Digital mediation:**
   -  Averaging of faces, [WW1 faces](https://dm0lds.wordpress.com/2018/11/10/le-visage-anonyme)
