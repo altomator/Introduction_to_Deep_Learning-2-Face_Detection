@@ -84,9 +84,9 @@ These deep learning systems are well known for facial detection or recognition:
   - [GallicaPix](https://gallicapix.bnf.fr/rest?run=findIllustrations-app.xq&filter=1&start=1&action=first&module=1&locale=fr&similarity=&rValue=&gValue=&bValue=&corpus=1418&sourceTarget=&keyword=&kwTarget=&kwMode=&title=excelsior&author=&publisher=&fromDate=1915-01-01&toDate=1915-12-31&iptc=00&page=true&illTech=00&illFonction=00&illGenre=00&persType=face&classif1=&CBIR=*&classif2=&CS=0.5&operator=and&colName=00&size=31&density=26), faces in the 1915 issues of [_L'Excelsior_](https://gallica.bnf.fr/ark:/12148/cb32771891w/date.item)
 
 - **Digital humanities:**
-  - Data analysis of newspapers front page: faces, gender (Excelsior, 1910-1920)
+  - Data analysis of newspapers front page regarding human faces use: [Excelsior (1910-1920)](https://github.com/altomator/Front-page_data-mining)
 
-![Front pages analysis: genders](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/faces-excelsior.jpg)
+[![Front pages analysis: faces and genders](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/faces-excelsior.jpg)](https://github.com/altomator/Front-page_data-mining)
 
   - Averaging of faces: _[A Century of Portraits: A Visual Historical Record of American High School Yearbooks](https://arxiv.org/abs/1511.02575)_ (UC Berkeley). Face detection is generally the first step of an averaging pipeline, which also implies detection of the facial features.
 
