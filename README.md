@@ -10,7 +10,7 @@ Annotation of visages on heritage material can be useful for information retriev
 
 <sup>[ark:/12148/btv1b10544068q](https://gallica.bnf.fr/ark:/12148/btv1b10544068q/f1)</sup>
 
-Facial recognition, a technology capable of matching a human face from a digital image, is not covered here.
+Facial recognition, a technology capable of matching a human face from a digital image, is not covered here. 
 
 ## Hands-on session 
 
@@ -88,7 +88,7 @@ These deep learning systems are well known for facial detection or recognition:
 
 [![Front pages analysis: faces and genders](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/faces-excelsior.jpg)](https://github.com/altomator/Front-page_data-mining)
 
-  - Averaging of faces: _[A Century of Portraits: A Visual Historical Record of American High School Yearbooks](https://arxiv.org/abs/1511.02575)_ (UC Berkeley). Face detection is generally the first step of an averaging pipeline, which also implies detection of the facial features.
+  - Averaging of faces: _[A Century of Portraits: A Visual Historical Record of American High School Yearbooks](https://arxiv.org/abs/1511.02575)_ (UC Berkeley). Face detection is the first step of an averaging pipeline, which also implies detection of the facial features.
 
 ![Averaging of faces](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/averaging.jpg)
 
@@ -100,6 +100,9 @@ These deep learning systems are well known for facial detection or recognition:
 - **Digital mediation:**
   -  Averaging of faces, [WW1 faces](https://dm0lds.wordpress.com/2018/11/10/le-visage-anonyme)
   -  Face replacement using vintage photos: [The Vintage Face Depot](https://wragge.github.io/face-depot)
+
+- Facial recognition: as averaging of faces, facial recognition generally starts with a face detection step. _[Face Recognition in the Archives](http://2018.digitalcultures.pl/en/programme/new-age-factory-sara)_ (The Slovak University of Technology)
+
 
 ## Resources
 - Face detection with [Google Cloud Vision](https://cloud.google.com/vision/docs/detecting-faces)
