@@ -81,10 +81,10 @@ These deep learning systems are well known for facial detection or recognition:
 
 ## Use cases
 - **Information Retrieval:**
-  - [GallicaPix](https://gallicapix.bnf.fr/rest?run=findIllustrations-app.xq&filter=1&start=1&action=first&module=1&locale=fr&similarity=&rValue=&gValue=&bValue=&corpus=1418&sourceTarget=&keyword=&kwTarget=&kwMode=&title=excelsior&author=&publisher=&fromDate=1915-01-01&toDate=1915-12-31&iptc=00&page=true&illTech=00&illFonction=00&illGenre=00&persType=face&classif1=&CBIR=*&classif2=&CS=0.5&operator=and&colName=00&size=31&density=26), faces in the 1915 issues of [_L'Excelsior_](https://gallica.bnf.fr/ark:/12148/cb32771891w/date.item)
+  - [GallicaPix](https://gallicapix.bnf.fr/rest?run=findIllustrations-app.xq&filter=1&start=1&action=first&module=1&locale=fr&similarity=&rValue=&gValue=&bValue=&corpus=1418&sourceTarget=&keyword=&kwTarget=&kwMode=&title=excelsior&author=&publisher=&fromDate=1915-01-01&toDate=1915-12-31&iptc=00&page=true&illTech=00&illFonction=00&illGenre=00&persType=face&classif1=&CBIR=*&classif2=&CS=0.5&operator=and&colName=00&size=31&density=26), faces in the 1915 issues of [_L'Excelsior_](https://gallica.bnf.fr/ark:/12148/cb32771891w/date.item) (BnF)
 
 - **Digital humanities:**
-  - Data analysis of newspapers front page regarding human faces use: [Excelsior (1910-1920)](https://github.com/altomator/Front-page_data-mining)
+  - Data analysis of newspapers front page regarding human faces use: [Excelsior (1910-1920)](https://github.com/altomator/Front-page_data-mining) (BnF)
 
 [![Front pages analysis: faces and genders](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/faces-excelsior.jpg)](https://github.com/altomator/Front-page_data-mining)
 
@@ -93,15 +93,18 @@ These deep learning systems are well known for facial detection or recognition:
 ![Averaging of faces](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/averaging.jpg)
 
   - Exploring the records of the White Australia Policy: [The People Inside](https://www.dropbox.com/s/8d60o9fxljeetpa/1.%20SherrattBagnall_PeopleInside.pdf?dl=0), 
-  [The real face of White Australia](https://www.realfaceofwhiteaustralia.net/faces/?rsort=1)
+  [The real face of White Australia](https://www.realfaceofwhiteaustralia.net/faces/?rsort=1) (University of Canberra)
   
   [![The real face of White Australia](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/images/australia.jpg)](https://www.realfaceofwhiteaustralia.net/faces/?rsort=1)
   
 - **Digital mediation:**
-  -  Averaging of faces, [WW1 faces](https://dm0lds.wordpress.com/2018/11/10/le-visage-anonyme)
-  -  Face replacement using vintage photos: [The Vintage Face Depot](https://wragge.github.io/face-depot)
+  -  Averaging of faces, [WW1 faces](https://dm0lds.wordpress.com/2018/11/10/le-visage-anonyme) (BnF)
+  -  Face replacement using vintage photos: [The Vintage Face Depot](https://wragge.github.io/face-depot) (Tim Sherratt)
 
-- Facial recognition: as averaging of faces, facial recognition generally starts with a face detection step. _[Face Recognition in the Archives](http://2018.digitalcultures.pl/en/programme/new-age-factory-sara)_ (The Slovak University of Technology)
+- **Facial recognition:**
+As averaging of faces, facial recognition generally starts with a face detection step. 
+
+  - _[Face Recognition in the Archives](http://2018.digitalcultures.pl/en/programme/new-age-factory-sara)_ (The Slovak University of Technology)
 
 
 ## Resources
