@@ -20,11 +20,9 @@ Out of the box and easy to use systems are available for face detection.
 ### OpenCV/dnn
 The [OpenCV/dnn](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/) module can be used to try some pretrained neural network models imported from frameworks as Caffe or Tensorflow.
 
-This [Python 3 script](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/binder/faces-detection-with-dnn.py) uses dnn to call a ResNet SSD network (see [this post](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/) or this [notebook](https://colab.research.google.com/github/dortmans/ml_notebooks/blob/master/face_detection.ipynb) for details). The model can be easily downloaded from the web.
+![Hands-on](https://github.com/altomator/Introduction_to_Deep_Learning-2-Object_Detection/blob/main/images/hands-on.png) This [Python 3 script](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/binder/faces-detection-with-dnn.py) uses dnn to call a ResNet SSD network (see [this post](https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/) or this [notebook](https://colab.research.google.com/github/dortmans/ml_notebooks/blob/master/face_detection.ipynb) for details). The model can be easily downloaded from the web.
 
-The images of a Gallica document are first loaded thanks to the IIIF protocol. The detection then occurs and annotated images are generated, as well as the CSV data. 
-
-Users may play with the confidence score value and look for the impact on the detection process. A basic filter on very large (and improbable) detections is implemented.
+The images of a Gallica document are first loaded thanks to the IIIF protocol. The detection then occurs and annotated images are generated, as well as the CSV data. Users may play with the confidence score value and look for the impact on the detection process. A basic filter on very large (and improbable) detections is implemented.
 
 **Display the Jupyter notebook with [nbviewer](https://nbviewer.jupyter.org/github/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/binder/faces-detection-with-dnn.ipynb)**
 
@@ -40,7 +38,9 @@ A final stage of  evaluation of the quality of the detection is carried out, usi
 
 ### Google Cloud Vision 
 
-The Google Cloud Vision API may be used to perform face and gender detection. The Perl script described [here](https://github.com/altomator/Image_Retrieval) calls the API to perform visual recognition of content or human faces.
+The Google Cloud Vision API may be used to perform face and gender detection. 
+
+![Hands-on](https://github.com/altomator/Introduction_to_Deep_Learning-2-Object_Detection/blob/main/images/hands-on.png) The Perl script described [here](https://github.com/altomator/Image_Retrieval) calls the API to perform visual recognition of content or human faces.
 
 First, we have to build a JSON request:
 
