@@ -12,4 +12,4 @@ Des analyses quantitatives sont produites à partir des détections et d'une ann
 
 [![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
 
-*Analyse des genres des promotions (1904-1933)*
+*Analyse du genre des élèves des promotions 1904-1933*
