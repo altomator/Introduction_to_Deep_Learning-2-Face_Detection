@@ -71,7 +71,7 @@ Note: [IBM Watson](https://www.ibm.com/blogs/policy/facial-recognition-sunset-ra
 
 ### MTCNN 
 
-This script is a Python3 implementation of the MTCNN face detector for TensorFlow, based on the paper Zhang, K et al. (2016).
+This [script](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/main/binder/faces-detection-with-MTCNN.py) is a Python3 implementation of the MTCNN face detector for TensorFlow, based on the paper Zhang, K et al. (2016).
 It requires OpenCV>=3.2 and Tensorflow>=1.4.0.
 
 See it in use on [school years photos](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/tree/gh-pages/ENC).
