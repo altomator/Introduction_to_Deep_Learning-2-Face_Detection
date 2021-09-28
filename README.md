@@ -69,6 +69,13 @@ curl --max-time 10 -v -s -H "Content-Type: application/json" https://vision.goog
 
 Note: [IBM Watson](https://www.ibm.com/blogs/policy/facial-recognition-sunset-racial-justice-reforms/) no longer offers facial detection.
 
+### MTCNN 
+
+This script is a Python3 implementation of the MTCNN face detector for TensorFlow, based on the paper Zhang, K et al. (2016).
+It requires OpenCV>=3.2 and Tensorflow>=1.4.0.
+
+See it in use on [school years photos](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/tree/gh-pages/ENC).
+
 ### Others approaches
 These deep learning systems are well known for facial detection or recognition:
 - Facebook [DeepFace](https://en.wikipedia.org/wiki/DeepFace)
@@ -76,7 +83,6 @@ These deep learning systems are well known for facial detection or recognition:
 - [VGGFace](https://github.com/rcmalli/keras-vggface)
 - Google [FaceNet](https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf)
 - [wrapper](https://github.com/serengil/deepface) for various models
-
 
 
 ## Use cases
