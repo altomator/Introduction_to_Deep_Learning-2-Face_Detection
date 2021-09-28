@@ -87,7 +87,7 @@ These deep learning systems are well known for facial detection or recognition:
 
 ## Use cases
 - **Information Retrieval:**
-  - [GallicaPix](https://gallicapix.bnf.fr/rest?run=findIllustrations-app.xq&filter=1&start=1&action=first&module=1&locale=fr&similarity=&rValue=&gValue=&bValue=&corpus=1418&sourceTarget=&keyword=&kwTarget=&kwMode=&title=excelsior&author=&publisher=&fromDate=1915-01-01&toDate=1915-12-31&iptc=00&page=true&illTech=00&illFonction=00&illGenre=00&persType=face&classif1=&CBIR=*&classif2=&CS=0.5&operator=and&colName=00&size=31&density=26), faces in the 1915 issues of [_L'Excelsior_](https://gallica.bnf.fr/ark:/12148/cb32771891w/date.item) (BnF)
+  - [GallicaPix](https://gallicapix.bnf.fr/rest?run=findIllustrations-app.xq&start=1&action=first&module=1&locale=fr&similarity=&rValue=&gValue=&bValue=&mode=&corpus=1418&sourceTarget=&keyword=&kwTarget=&kwMode=&title=excelsior&author=&publisher=&fromDate=1915-01-01&toDate=1915-12-31&iptc=00&illTech=00&illFonction=00&illGenre=00&persType=face&classif1=&CBIR=*&classif2=&CS=0.25&operator=and&colName=00&size=31&density=13), faces in the 1915 issues of [_L'Excelsior_](https://gallica.bnf.fr/ark:/12148/cb32771891w/date.item) (BnF)
 
 - **Digital humanities:**
   - Data analysis of newspapers front page regarding human faces use: [Excelsior (1910-1920)](https://github.com/altomator/Front-page_data-mining) (BnF)
