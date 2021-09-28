@@ -10,7 +10,6 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 
 Des analyses quantitatives sont produites à partir des détections.
 
-[![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)]
-(https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
+[![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
 
 *Analyse des genres des promotions (1904-1933)*
