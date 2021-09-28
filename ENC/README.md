@@ -5,9 +5,11 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 - [MTCNN](https://github.com/jbrownlee/mtcnn) pour la détection de visages
 
 ![MTCNN](https://github.com/ademec/Valda/blob/images/images/visuels/identification.jpg)
+
 *Exemple de détection de visages avec MTCNN*
 
 Des analyses quantitatives sont produites à partir des détections.
 
 ![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)
+
 *Analyse des genres des promotions (1904-1933)*
