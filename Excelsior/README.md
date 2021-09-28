@@ -1,6 +1,6 @@
 ### GallicaPix
 
-Les images des pages de une sont analysées avec plusieurs modèles de détection de visage. Une correction manuelle est ensuite menée.
+Les images des pages de une de l'Excelsior (1910-1920) sont analysées avec plusieurs modèles de détection de visage. Une correction manuelle est ensuite menée.
 
 Des analyses quantitatives sont produites à partir des détections.
 
