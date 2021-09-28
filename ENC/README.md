@@ -1,4 +1,4 @@
-### Hackathon du bicentenaire de l'Ecole nationale des Chartes
+### [Hackathon du bicentenaire de l'Ecole nationale des Chartes](http://www.chartes.psl.eu/fr/actualite/hackathon-du-bicentenaire) (septembre 2021)
 
 Les images des promotions sont traitées avec plusieurs modèles de détection d'objets :
 - [Yolo v4](https://github.com/kiyoshiiriemon/yolov4_darknet) (détection de personnes et de cravates)
