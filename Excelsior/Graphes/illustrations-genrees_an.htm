@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Illustrations genrées sur la page de une (%) - Excelsior (1910-1920)</title>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'area'
+        },
+        title: {
+            text: 'Illustrations genrées sur la page de une (%) - Excelsior (1910-1920)'
+        },
+        subtitle: {
+            text: 'Source : Gallica, BnF'
+        },
+        xAxis: {
+            categories: [
+							'1910','1911','1912','1913','1914','1915','1916','1917','1918','1919','1920'],
+            tickmarkPlacement: 'on',
+            title: {
+                enabled: false
+            }
+        },
+        yAxis: {
+            title: {
+                text: 'pourcentage'
+            },
+            labels: {
+                formatter: function () {
+                    return this.value / 1;
+                }
+            }
+        },
+        tooltip: {
+					pointFormat: '<span style="color:{series.color}">{series.name}</span> : <b>{point.percentage:.1f}%</b> ({point.y:,.0f} )<br/>',
+			split: true
+        },
+        plotOptions: {
+            area: {
+                stacking: 'percent',
+                lineColor: '#666666',
+                lineWidth: 1,
+                marker: {
+                    lineWidth: 1,
+                    lineColor: '#666666'
+                }
+            }
+        },
+        series: [{
+            name: '100 % homme',
+						color: Highcharts.getOptions().colors[3],
+            data: [
+							65,
+ 312,
+ 262,
+ 224,
+ 352,
+ 312,
+ 252,
+ 222,
+ 328,
+ 195,
+ 727
+   ]}, {
+            name: '100 % femme',
+            color: Highcharts.getOptions().colors[5],
+            data: [
+							6,
+	 10,
+	 5,
+	 12,
+	 29,
+	 5,
+	 5,
+	 8,
+	 14,
+	 6,
+	 18
+  ] } , {
+					 name: 'mixte',
+					 color: Highcharts.getOptions().colors[2],
+					 data: [
+						 26,
+ 114,
+ 67,
+ 99,
+ 105,
+ 44,
+ 39,
+ 27,
+ 29,
+ 24,
+ 100
+]  },{
+            type: 'pie',
+            name: 'Total',
+            data: [{
+                name: 'homme',
+                y: 1665,
+                color: Highcharts.getOptions().colors[3]
+            },
+             {
+                name: 'femme',
+                y: 71,
+                color: Highcharts.getOptions().colors[5]
+            },{
+							 name: 'mixte',
+							 y: 358,
+							 color: Highcharts.getOptions().colors[2]
+					 }],
+            center: [80, 50],
+            size: 70,
+            showInLegend: false,
+            dataLabels: {
+                enabled: false
+            }
+            }
+            ]
+    });
+});
+		</script>
+	</head>
+	<body>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<script src="../js/themes/sand-signika.js"></script>
+
+<div id="container" style="min-width: 500px; height: 800px; margin: 0 auto"></div>
+
+	</body>
+</html>
