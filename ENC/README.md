@@ -8,7 +8,7 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 
 *Exemple de détection de visages avec MTCNN*
 
-Des analyses quantitatives sont produites à partir des détections.
+Des analyses quantitatives sont produites à partir des détections et d'une annotation manuelle des visages d'élève femme.
 
 [![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
 
