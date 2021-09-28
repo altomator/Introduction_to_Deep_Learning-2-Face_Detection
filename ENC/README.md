@@ -4,7 +4,7 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 - [Yolo v4](https://github.com/kiyoshiiriemon/yolov4_darknet) (dans le cas du jeu, détection de personnes et de cravates)
 - [MTCNN](https://github.com/jbrownlee/mtcnn) pour la détection des visages
 
-![Yolo v4](https://github.com/ademec/Valda/blob/images/images/visuels/visages.jpg)
+![Yolo v4](https://github.com/ademec/Valda/blob/images/images/visuels/identification.jpg)
 *Exemple de détection de visages avec MTCNN*
 
 Des analyses quantitatives sont produites à partir des détections.
