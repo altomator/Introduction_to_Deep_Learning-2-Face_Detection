@@ -1,7 +1,7 @@
 ### Hackathon du bicentenaire de l'Ecole nationale des Chartes
 
 Les images des promotions sont traitées avec plusieurs modèles de détection d'objets :
-- [Yolo v4](https://github.com/kiyoshiiriemon/yolov4_darknet) (dans le cas du jeu, détection de personnes et de cravates)
+- [Yolo v4](https://github.com/kiyoshiiriemon/yolov4_darknet) (détection de personnes et de cravates)
 - [MTCNN](https://github.com/jbrownlee/mtcnn) pour la détection de visages
 
 ![MTCNN](https://github.com/altomator/Introduction_to_Deep_Learning-2-Face_Detection/blob/gh-pages/images/promo.jpg)
