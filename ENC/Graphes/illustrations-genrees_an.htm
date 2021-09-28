@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Genre des étudiants (%) - ENC (1904-1933)</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'area'
+        },
+        title: {
+            text: 'Genre des étudiants (%) - ENC (1904-1933)'
+        },
+        subtitle: {
+            text: 'Source : ENC'
+        },
+        xAxis: {
+            categories: [
+"1904","1905","1907","1908","1909","1911","1913", "1918","1919","1920","1921","1922","1924","1926","1927","1928","1929","1930","1931","1933"
+							],
+            tickmarkPlacement: 'on',
+            title: {
+                enabled: false
+            }
+        },
+        yAxis: {
+            title: {
+                text: 'pourcentage'
+            },
+            labels: {
+                formatter: function () {
+                    return this.value / 1;
+                }
+            }
+        },
+        tooltip: {
+					pointFormat: '<span style="color:{series.color}">{series.name}</span> : <b>{point.percentage:.1f}%</b> ({point.y:,.0f} )<br/>',
+			split: true
+        },
+        plotOptions: {
+            area: {
+                stacking: 'percent',
+                lineColor: '#666666',
+                lineWidth: 1,
+                marker: {
+                    lineWidth: 1,
+                    lineColor: '#666666'
+                }
+            }
+        },
+        series: [{
+            name: 'Homme',
+						color: Highcharts.getOptions().colors[3],
+            data: [
+							21,
+ 38,
+ 39,
+ 16,
+ 32,
+ 51,
+ 41,
+ 18,
+ 32,
+ 14,
+ 16,
+ 20,
+ 34,
+ 34,
+ 39,
+ 36,
+ 22,
+ 58,
+ 43,
+ 11
+   ]}, {
+            name: 'Femme',
+            color: Highcharts.getOptions().colors[2],
+            data: [
+							0,
+ 0,
+ 1,
+ 0,
+ 0,
+ 0,
+ 0,
+ 7,
+ 6,
+ 2,
+ 1,
+ 6,
+ 16,
+ 18,
+ 25,
+ 28,
+ 18,
+ 38,
+ 26,
+ 13
+
+  ] } , {
+            type: 'pie',
+            name: 'Total',
+            data: [{
+                name: 'homme',
+                y: 615,
+                color: Highcharts.getOptions().colors[3]
+            },
+             {
+                name: 'femme',
+                y: 205,
+                color: Highcharts.getOptions().colors[2]
+            }],
+            center: [80, 50],
+            size: 70,
+            showInLegend: false,
+            dataLabels: {
+                enabled: false
+            }
+            }
+            ]
+    });
+});
+		</script>
+	</head>
+	<body>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<script src="../js/themes/sand-signika.js"></script>
+
+<div id="container" style="min-width: 500px; height: 800px; margin: 0 auto"></div>
+
+	</body>
+</html>

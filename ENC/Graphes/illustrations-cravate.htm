@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Cravates - ENC (1904-1933)</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            type: 'spline'
+        },
+        title: {
+            text: 'Cravates - ENC (1904-1933)'
+        },
+        subtitle: {
+            text: 'Source : Gallica@BnF'
+        },
+        xAxis: {
+            categories: [
+							"1904","1905","1907","1908","1909","1911","1913", "1918","1919","1920","1921","1922","1924","1926","1927","1928","1929","1930","1931","1933"
+
+]
+        },
+        yAxis: {
+            title: {
+                text: 'Illustrations'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: false
+                },
+                enableMouseTracking: true
+            }
+        },
+        series: [{
+            name: 'cravate',
+            data: [
+							8,
+ 11,
+ 20,
+ 11,
+ 25,
+ 38,
+ 34,
+ 10,
+ 24,
+ 14,
+ 17,
+ 20,
+ 29,
+ 31,
+ 29,
+ 19,
+ 18,
+ 42,
+ 38,
+ 3
+]
+
+        }, {
+            name: 'normalisé',
+						color: 'gray',
+            data: [
+0.571428571,
+0.323529412,
+0.64516129,
+0.733333333,
+0.961538462,
+0.826086957,
+0.971428571,
+0.555555556,
+0.705882353,
+0.933333333,
+1,
+0.8,
+0.630434783,
+0.673913043,
+0.591836735,
+0.38,
+0.514285714,
+0.6,
+0.644067797,
+0.176470588
+						]
+        }  ]
+    });
+});
+		</script>
+	</head>
+	<body>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+		<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="../js/themes/sand-EN.js"></script>
+
+<div id="container" style="min-width: 310px; height: 600px; margin: 0 auto"></div>
+
+	</body>
+</html>
